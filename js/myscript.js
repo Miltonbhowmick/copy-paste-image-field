@@ -8,7 +8,8 @@ document.onpaste = function(event){
             var blob = item.getAsFile();
             var reader = new FileReader();
             reader.onload = function (event) {
-                console.log(event.target.result);
+                // console.log(event.target.result);
+                document.getElementById('pastedImage').src = event.target.result;
             }; 
             reader.readAsDataURL(blob);
         }
