@@ -32,9 +32,10 @@ body{
 }
 .main-content{
     display: flex;
-    flex-direction: row;
-    justify-content: center;    
+    flex-direction: column;
+    align-items: center;  
     min-height: 75vh;
+    overflow-y: auto;
 }
 .paste-box{
     /* margin-top: 30px; */
@@ -49,14 +50,16 @@ body{
     border-radius: 8px;
     padding: 10px;
 }
-.paste-box .image-box{
+.paste-box input:focus{
+    outline: none;
+}
+.image-box{
     margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.paste-box .image-box img{
-
+.image-box img{
 }
 .footer{
     bottom: 0;
