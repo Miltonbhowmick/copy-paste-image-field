@@ -1,14 +1,30 @@
 <html>
     <head>
-        <title>copy paste image field</title>
-        <script src="./js/myscript.js"></script>
+        <title>COPY-PASTE Image</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/image_copy_paste.js"></script>
     </head>
     <body>
-        <div>
-            <input type="text" placeholder="paste your image" />
-            <div>
-            	<img src="#" id="pastedImage">
+        <header>
+            <nav class="m-navbar">
+                <div class="navbar-mid">
+                    <p class="built-headline">Copy Image & See image</p>
+                    <p class="built-quote">a mini built by milton bhowmick</p>
+                </div>
+            </nav>
+        </header>
+        <div class="main-content">
+            <div class="paste-box">
+                <input type="text" placeholder="paste your image" />
+                <div class="image-box">
+                    <img class="m-w-100 img" src="" alt="No image pasted" id="pastedImage">
+                </div>
             </div>
         </div>
+        <footer class="footer">
+            <a class="contact-me">
+                Have a coffee with me
+            </a>
+        </footer>
     </body>
 </html>

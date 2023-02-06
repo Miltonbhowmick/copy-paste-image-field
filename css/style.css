@@ -1,0 +1,83 @@
+body{
+    font-family: Mukta Mahee,Helvetica,Arial,sans-serif;
+    width: 100%;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(ellipse at center,#192d38 0,#211f2f 100%);
+}
+
+.m-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.m-navbar .built-headline{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 2px 5px #000;
+    text-align: center;
+    margin: 0;
+}
+.m-navbar .built-quote{
+    font-family: Caveat,cursive;
+    font-size: 15px;
+    color: #ffd908;
+    opacity: .9;
+    font-weight: 400;
+    text-align: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    min-height: 75vh;
+}
+.paste-box{
+    /* margin-top: 30px; */
+}
+.paste-box input{
+    background: none;
+    color: #fff;
+    box-shadow: none;
+    width: 370px;
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.paste-box .image-box{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.paste-box .image-box img{
+
+}
+.footer{
+    bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer .contact-me{
+    font-family: Caveat,cursive;
+    font-size: 12px;
+    color: #ffd908;
+    opacity: .9;
+    font-weight: 400;
+    text-align: center;
+}
+.m-w-100{
+    width: 100%;
+}
+
+.m-w-25{
+    width: 25%;
+}
